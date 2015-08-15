@@ -11,7 +11,8 @@ import SpriteKit
 
 class GameViewController: UIViewController {
 
-    override func viewDidLoad() {
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
 
         if let scene = GameScene(fileNamed:"GameScene") {
@@ -66,12 +67,43 @@ class GameViewController: UIViewController {
         if motion == .MotionShake
         {
             print("QUE FAÇANHA!")
+            randomAnswer()
         }
     }
     
     override func canBecomeFirstResponder() -> Bool
     {
         return true
+    }
+    
+    func randomAnswer() -> Void
+    {
+        let label = SKLabelNode()
+        var randomNumber = arc4random() % 4
+        randomNumber += 1
+        
+        switch(randomNumber)
+        {
+        case 1:
+            label.text = "Resp 1"
+            break;
+            
+        case 2:
+            label.text = "Resp 2"
+            break;
+            
+        case 3:
+            label.text = "Resp 3"
+            break;
+            
+        case 4:
+            label.text = "Resp 4"
+            break;
+            
+        default:
+            label.text = "Default"
+            break;
+        }
     }
 
 }
