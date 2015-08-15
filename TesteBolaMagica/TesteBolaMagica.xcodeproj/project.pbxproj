@@ -198,7 +198,6 @@
 				TargetAttributes = {
 					794D9FCD1B7F7CBC00F67F03 = {
 						CreatedOnToolsVersion = 7.0;
-						DevelopmentTeam = ZUD974TE3Q;
 					};
 					794D9FE51B7F7CBC00F67F03 = {
 						CreatedOnToolsVersion = 7.0;
@@ -502,6 +501,7 @@
 				794D9FFC1B7F7CBC00F67F03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		794D9FFD1B7F7CBC00F67F03 /* Build configuration list for PBXNativeTarget "TesteBolaMagicaTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +510,7 @@
 				794D9FFF1B7F7CBC00F67F03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		794DA0001B7F7CBC00F67F03 /* Build configuration list for PBXNativeTarget "TesteBolaMagicaUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +519,7 @@
 				794DA0021B7F7CBC00F67F03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
